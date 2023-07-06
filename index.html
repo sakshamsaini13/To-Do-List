@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <body>
+        <div class="to-do-navbar">
+            <div class="filters-box">
+                <div class="color-filters red active-filter"></div>   
+                <div class="color-filters blue"></div>
+                <div class="color-filters green"></div>
+                <div class="color-filters yellow"></div>
+                <div class="color-filters grey"></div>
+
+            </div>
+    
+            <div class="add-remove">
+                <div class="add open-modal"><i class="fa-solid fa-plus"></i></div>
+                <div class="remove close-modal"><i class="fa-solid fa-xmark"></i></div>
+            </div>
+          
+        </div>
+        <!-- <div class="ticket-modal">
+            <div class="ticket-text" contenteditable="true">
+               Enter Your Text !
+            </div>
+            <div class="ticket-filters">
+                <div class="ticket-filter red selected-filter"></div>
+                <div class="ticket-filter blue"></div>
+                <div class="ticket-filter green"></div>
+                <div class="ticket-filter yellow"></div>
+                <div class="ticket-filter grey"></div>
+
+            </div>
+        </div> -->
+
+
+       <div class="tickets-container">
+    </div>  
+            <!--  <div class="ticket">
+                <div class="ticket-header"></div>
+                <div class="ticket-content">
+                      <div class="ticket-info">
+                           <div class="ticket-id">#34B6</div>
+                           <div class="ticket-delete"><i class="fa-solid fa-trash"></i></div>
+                     </div>
+                    <div class="ticket-value">
+                         some value
+                        ABCD
+                    </div>
+                </div>
+            </div>
+    -->
+        <script src="https://cdn.jsdelivr.net/npm/short-unique-id@4.4.4/dist/short-unique-id.min.js"></script>
+
+<!-- Usage -->
+<script>
+  // Instantiate
+  var uuid = new ShortUniqueId();
+
+  // Random UUID
+//   document.write(uid());
+
+//   // Sequential UUID
+//   document.write(uid.seq());
+</script>
+
+</body>
+</html>
